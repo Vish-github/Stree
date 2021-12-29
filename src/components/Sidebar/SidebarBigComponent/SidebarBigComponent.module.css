@@ -1,0 +1,22 @@
+.sidebarbigoption {
+  border-bottom: 1px solid white;
+  padding: 20px 10px 0px 0px;
+}
+.sidebarbigoption > div {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sidebarbigoption > div > p {
+  flex: 1;
+  font-weight: 600;
+}
+.sidebarbigoption_contianer {
+  padding-left: 20px;
+}
+@media (max-width: 600px) {
+  .downarrow {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.button {
+  background-color: #222261;
+  padding: 10px 30px;
+  /* border-radius: 10px; */
+  color: white;
+  border: none;
+  width: fit-content;
+  outline: none;
+  cursor: pointer;
+}
+/* original */
+/* .button:hover {
+  background-color: #f50057;
+  border: 1px solid #f50057;
+  color: white;
+} */
+/* glow */
+.button:hover {
+  background: #222261;
+  box-shadow: 0 0 5px #0cafd8, 0 0 25px #0cafd8, 0 0 50px #0cafd8,
+    0 0 200px #0cafd8;
+}
+/* .button:hover {
+  box-shadow: inset -4em 0 0 0 #ff96ad, inset 4em 0 0 0 #ff96ad;
+} */

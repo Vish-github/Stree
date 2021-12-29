@@ -1,0 +1,16 @@
+.navbar_bg {
+  position: absolute;
+  top: -80px;
+  z-index: -1;
+}
+@media (max-width: 1124px) {
+  .navbar_bg {
+    top: -40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar_bg {
+    top: -0px;
+  }
+}

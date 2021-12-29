@@ -1,0 +1,20 @@
+.sidebarsmalleroption {
+  /* padding-left: 20px; */
+  display: flex;
+  flex-direction: column;
+  border-color: aliceblue;
+}
+.sidebarsmalleroption > a {
+  text-decoration: none;
+  color: white;
+  align-self: flex-start;
+  padding: 10px 20px;
+  padding-left: 40px;
+  width: 100%;
+  text-transform: capitalize;
+  margin-bottom: 1px;
+}
+.sidebarsmalleroption a:hover {
+  background-color: aliceblue;
+  color: #1d1da2;
+}
